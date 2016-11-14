@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FontTextView">
+        <attr name="font" />
+        <attr name="android:textAppearance" />
+    </declare-styleable>
+
+    <attr name="font" format="string" />
+
+    <declare-styleable name="FontTextAppearance">
+        <attr name="android:textSize" />
+        <attr name="android:textColor" />
+        <attr name="android:fontFamily" />
+        <attr name="font" />
+    </declare-styleable>
+
+
+    <attr name="lineHeightHint" format="dimension" />
+
+    <declare-styleable name="BaselineGridTextView">
+        <attr name="lineHeightMultiplierHint" format="float" />
+        <attr name="lineHeightHint" />
+        <attr name="maxLinesByHeight" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="FabTransform">
+        <attr name="fabColor" format="color" />
+        <attr name="fabIcon" format="reference" />
+    </declare-styleable>
+
+</resources>

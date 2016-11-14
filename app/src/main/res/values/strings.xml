@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Todo</string>
+    <string name="action_options">Options</string>
+    <string name="action_add_new">Add</string>
+
+
+    <string name="transition_new_todo_item" translatable="false">new_todo_item</string>
+
+    <!-- new todo-->
+    <string name="new_todo_title">Create new todo item</string>
+    <string name="new_todo_instructions">After creating a new item successfully, it will appear in the pending section.</string>
+    <string name="new_todo_title_placeholder">Todo title</string>
+    <string name="new_todo_add">Add</string>
+
+    <string name="pending_tab_title">PENDING</string>
+    <string name="done_tab_title">DONE</string>
+
+    <string name="selected_count">%1$s selected</string>
+    <string name="marked_as_done">Marked as done</string>
+    <string name="undo">Undo</string>
+    <string name="restored">Restored</string>
+</resources>
